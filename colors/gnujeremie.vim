@@ -45,7 +45,7 @@ hi VertSplit    ctermfg=black ctermbg=gray term=none cterm=none
 hi Folded       ctermfg=darkgrey    ctermbg=black cterm=bold term=bold
 hi FoldColumn   ctermfg=darkgrey    ctermbg=black cterm=bold term=bold
 hi LineNr       ctermfg=red         cterm=none
-hi CursorLineNr ctermfg=red         cterm=bold
+hi CursorLineNr ctermfg=red         cterm=reverse
 
 hi DiffAdd      ctermbg=darkblue    term=none   cterm=none
 hi DiffChange   ctermbg=magenta     cterm=none
@@ -58,7 +58,7 @@ hi lCursor      ctermfg=bg ctermbg=darkgreen
 
 hi Comment      ctermfg=darkred
 hi Constant     ctermfg=magenta cterm=none
-hi Special      ctermfg=magenta   cterm=none
+hi Special      ctermfg=magenta cterm=none
 hi Identifier   ctermfg=cyan    cterm=none
 hi Statement    ctermfg=yellow  cterm=none
 hi PreProc      ctermfg=magenta cterm=none
@@ -67,8 +67,3 @@ hi Underlined   cterm=underline term=underline
 hi Ignore       ctermfg=bg
 hi String       ctermfg=yellow  cterm=none
 hi Todo         ctermfg=white   ctermbg=red     cterm=bold
-
-sign define current text=-> texthl=DbgCurrent linehl=DbgCurrent
-sign define breakpt text=B> texthl=DbgBreakPt linehl=DbgBreakPt
-hi DbgCurrent term=reverse ctermfg=White ctermbg=Red gui=reverse
-hi DbgBreakPt term=reverse ctermfg=White ctermbg=Green gui=reverse
