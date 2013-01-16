@@ -12,8 +12,8 @@ let colors_name = "gnujeremie"
 
 hi Normal       ctermfg=gray        ctermbg=black
 hi ErrorMsg     ctermfg=white       ctermbg=lightblue
-hi Visual       ctermfg=lightblue   ctermbg=fg          cterm=reverse
-hi VisualNOS    ctermfg=lightblue   ctermbg=fg          cterm=reverse,underline
+hi Visual       cterm=reverse
+hi VisualNOS    cterm=reverse,underline
 hi Todo         ctermfg=red         ctermbg=darkblue
 hi Search       ctermfg=grey        ctermbg=lightblue
 hi IncSearch    ctermfg=darkblue    ctermbg=gray
@@ -26,14 +26,17 @@ hi TabLineSel   ctermfg=darkred ctermbg=black
 hi TabLineFill  ctermfg=yellow  ctermbg=blue
 
 hi SpecialKey   ctermfg=darkcyan
-hi Directory    ctermfg=cyan
+hi Directory    ctermfg=cyan        cterm=none
 hi Title        ctermfg=magenta     cterm=bold
 hi WarningMsg   ctermfg=red
 hi WildMenu     ctermfg=yellow      ctermbg=black       cterm=none term=none
-hi ModeMsg      ctermfg=lightblue
+hi ModeMsg      ctermfg=yellow      cterm=none
 hi MoreMsg      ctermfg=darkgreen   ctermfg=darkgreen
 hi Question     ctermfg=green       cterm=none
 hi NonText      ctermfg=darkblue
+
+hi Pmenu        ctermfg=black       ctermbg=yellow
+hi PmenuSel     ctermfg=white       ctermbg=black
 
 hi StatusLine   ctermfg=blue  ctermbg=gray term=none cterm=none
 hi StatusLineNC ctermfg=black ctermbg=gray term=none cterm=none
@@ -62,5 +65,5 @@ hi PreProc      ctermfg=magenta cterm=none
 hi type         ctermfg=green   cterm=none
 hi Underlined   cterm=underline term=underline
 hi Ignore       ctermfg=bg
-hi String       term=NONE       cterm=NONE  start=^[[m^[[33m    stop=^[[m^[[32m   ctermfg=3
-hi Constant     term=NONE       cterm=NONE  start=^[[m^[[33m    stop=^[[m^[[32m   ctermfg=3
+hi String       ctermfg=yellow  cterm=none
+hi Todo         ctermfg=white   ctermbg=red     cterm=bold
