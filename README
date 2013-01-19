@@ -1,1 +1,10 @@
-A simple vim colorscheme based on campfire by Alexander Timmermans.
+Gnujeremie's vim colorschemes
+============================
+
+A set of several colorschemes.
+
+License
+-------
+
+Copyright (c) Tim Pope.  Distributed under the same terms as Vim itself.
+See `:help license`.
