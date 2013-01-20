@@ -1,6 +1,6 @@
 " This is a 256 color colorscheme.
 " Maintainer:   Gnujérémie <jeremie@gnujeremie.net>
-" Last Change:  January, 19 2013
+" Last Change:  January, 20 2013
 
 hi clear
 if exists("syntax_on")
@@ -45,12 +45,12 @@ hi FoldColumn   ctermfg=31    ctermbg=black cterm=bold
 hi LineNr       ctermfg=84
 hi CursorLineNr ctermfg=white ctermbg=22
 
-hi DiffAdd      ctermbg=darkblue    cterm=none
-hi DiffChange   ctermbg=magenta     cterm=none
-hi DiffDelete   ctermfg=blue        ctermbg=cyan
-hi DiffText     cterm=bold          ctermbg=red
-hi diffAdded    ctermfg=green
-hi diffRemoved  ctermfg=red
+hi DiffAdd      ctermbg=22    cterm=none
+hi DiffChange   ctermfg=black ctermbg=30
+hi DiffDelete   ctermfg=52
+hi DiffText     ctermfg=93    ctermbg=63    cterm=bold
+hi diffAdded    ctermfg=22
+hi diffRemoved  ctermfg=52
 
 hi Cursor       ctermfg=black       ctermbg=darkgreen
 
