@@ -57,14 +57,14 @@ hi Cursor       ctermfg=black       ctermbg=darkgreen
 hi Comment      ctermfg=63
 
 hi Constant     ctermfg=42
-hi String       ctermfg=71
+hi String       ctermfg=81
 hi Character    ctermfg=88
 " hi Number
 " hi Boolean
 " hi Float
 
 hi Identifier   ctermfg=63      cterm=none
-hi Function     ctermfg=79
+hi Function     ctermfg=35
 
 hi Special      ctermfg=92
 " hi SpecialChar
@@ -73,7 +73,7 @@ hi Special      ctermfg=92
 " hi SpecialComment
 hi Debug        ctermfg=white   ctermbg=22
 
-hi Statement    ctermfg=30
+hi Statement    ctermfg=75
 " hi Conditional
 " hi Repeat
 " hi Label
