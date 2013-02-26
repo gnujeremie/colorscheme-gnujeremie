@@ -18,6 +18,7 @@ hi IncSearch    ctermfg=88          ctermbg=136
 
 hi CursorLine   cterm=bold
 hi CursorColumn cterm=bold
+hi SignColumn   ctermbg=black
 
 hi TabLine      ctermfg=black    ctermbg=166
 hi TabLineSel   ctermfg=166      ctermbg=black

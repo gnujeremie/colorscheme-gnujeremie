@@ -19,6 +19,7 @@ hi IncSearch    ctermfg=gray        ctermbg=darkblue
 
 hi CursorLine   cterm=bold
 hi CursorColumn cterm=bold      ctermbg=LightMagenta
+hi SignColumn   ctermbg=black
 
 hi TabLine      ctermfg=black   ctermbg=yellow
 hi TabLineSel   ctermfg=darkred ctermbg=black
