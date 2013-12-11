@@ -46,10 +46,10 @@ hi FoldColumn   ctermfg=64    ctermbg=black cterm=bold
 hi LineNr       ctermfg=136
 hi CursorLineNr ctermfg=88    ctermbg=172   cterm=bold
 
-hi DiffAdd      ctermbg=34    cterm=none
-hi DiffChange   ctermfg=black ctermbg=94   cterm=none
-hi DiffDelete   ctermfg=124
-hi DiffText     ctermfg=88    ctermbg=166  cterm=bold
+hi DiffAdd      ctermfg=16    ctermbg=34    cterm=none
+hi DiffChange   ctermfg=black ctermbg=94    cterm=none
+hi DiffDelete   ctermfg=124   ctermbg=black
+hi DiffText     ctermfg=88    ctermbg=166   cterm=bold
 hi diffAdded    ctermfg=34
 hi diffRemoved  ctermfg=124
 
